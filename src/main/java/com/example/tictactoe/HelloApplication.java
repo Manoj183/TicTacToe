@@ -17,7 +17,7 @@ import javafx.stage.Stage;
 public class HelloApplication extends Application {
 
     private Label playerXScoreLabel, playerOScoreLabel;
-    private final Button buttons[][] = new Button[3][3];
+    private final Button[][] buttons = new Button[3][3];
     private boolean playerXTurn = true;
     private int playerXScore = 0, playerOScore = 0;
 
