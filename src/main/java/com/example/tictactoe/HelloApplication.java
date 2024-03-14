@@ -79,7 +79,7 @@ public class HelloApplication extends Application {
     }
 
     private void buttonClicked(Button button){
-        if(button.getText().equals("")) {
+        if(button.getText().isEmpty()) {
             if (playerXTurn) {
                 button.setText("X");
                 button.setTextFill(Color.web("#e71d36"));
